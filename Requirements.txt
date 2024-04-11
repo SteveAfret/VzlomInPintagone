@@ -1,0 +1,7 @@
+Подключаемые Модули:
+sqlite3
+random
+flask
+
+Github:
+Github

@@ -1,0 +1,10 @@
+Подключаемые Модули:
+sqlite3
+random
+flask.Flask
+flask.request
+flask.render.template
+flask.redirect
+
+Github:
+Github

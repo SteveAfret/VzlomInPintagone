@@ -4,6 +4,7 @@ import sqlite3
 
 app = Flask(__name__, static_folder="images")
 
+# Для Запуска На Сайте
 def url_prefix():
   return '/pintagone' if request.environ.get('SERVER_NAME') == 'hmsm.ru' else ''
 

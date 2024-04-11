@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+   <meta charset="UTF-8">
+   <title>Пинтагон</title>
+  </head>
+  <body style="background-color:{{colour}}">
+
+    <h1>Взломай Пинтагоне!!!</h1>
+    <h2>Давай, Ты Справишься!</h2>
+    <h3>Правила: Пароль Состоит Из Заглавных Английских Букв И Цифр</h3>
+    
+    <img src="{{url_prefix}}/images/{{image}}">
+
+    <form>
+        <p>{{ hint }}</p>
+        <input type="text" name="password" value="{{ password }}">
+        <input type="submit" value="Подтвердить Пароль">
+        <button formaction="{{url_prefix}}/reset">Сбросить Пароль</button>
+        <button formaction="{{url_prefix}}/hints">История Подсказок</button>
+    </form>
+
+  </body>
+</html>
